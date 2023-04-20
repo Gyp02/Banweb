@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {NgxTypedJsModule} from 'ngx-typed-js';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,7 +23,8 @@ import { MisproductosComponent } from './componets/misproductos/misproductos.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxTypedJsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -60,6 +60,14 @@ body{
   margin: 0 auto;
   overflow: hidden;
 }
+.titulo{
+  position: absolute; 
+  font-size: 160px;
+  top: -740px;
+  z-index: 1;
+   
+}
+
 
 .layer-bg {
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_bg.jpg");
@@ -85,7 +93,6 @@ body{
   .layer-overlay {
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_overlay.png");
   }
-
   @media only screen and (max-width: 768px) {
     #hero {
       display: none;
